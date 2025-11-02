@@ -1,21 +1,27 @@
-<script>
-	export let title;
-	export let description;
-	export let details;
-	export let link;
+<script lang="ts">
+	export let title: string;
+	export let description: string;
+	export let backgroundImage: string | null = null;
+	export let blur: boolean = false;
+	export let link: string;
 </script>
 
 <a
-	class="flex flex-col space-y-4 p-6 w-80 border-2 border-black dark:border-stone-400 text-black dark:text-white rounded-lg transition-transform duration-200 transform hover:scale-103"
+	class="group relative overflow-hidden flex flex-col justify-end p-6 w-80 min-h-80 border-2 border-black dark:border-stone-400 text-black dark:text-white rounded-lg duration-200 hover:scale-103"
 	href={link}
 >
-	<h2 class="text-3xl font-semibold">{title}</h2>
-	<div class="space-y-4">
-		<p class="text-lg">
-			{description}
-		</p>
+	<div
+		class="absolute inset-0 bg-cover bg-center filter {blur ? 'blur-sm' : ''}"
+		style="background-image: {backgroundImage ? `url(${backgroundImage})` : 'none'}"
+	></div>
+
+	<div class="absolute inset-0 bg-black/10 dark:bg-black/30 transition-opacity duration-300 group-hover:opacity-0"></div>
+	
+	<div class="relative pointer-events-none hover-a z-10 space-y-1 p-2 bg-white/65 dark:bg-black/65 rounded-md">
+		<h2 class="text-3xl font-semibold">{title}</h2>
+		
 		<p class="text-md">
-			{details}
+			{description}
 		</p>
 	</div>
 </a>
