@@ -19,14 +19,14 @@
 	<div class="absolute inset-0 bg-black/15 dark:bg-black/30 transition-opacity duration-50 group-hover:opacity-0"></div>
 
 	{#if logos.length > 0}
-	<div class="absolute top-2 left-2 flex gap-2 z-20 p-1 rounded-md bg-white/65">
+	<div class="absolute top-2 left-2 flex gap-2 z-20 p-1 rounded-md bg-white/65 dark:bg-black/65">
 		{#each logos as logo}
-		<img src={logo} alt="Logo" class="h-6" />
+		<img src={logo} alt="Logo" class="h-7" />
 		{/each}
 	</div>
 	{/if}
 	
-	<div class="relative pointer-events-none hover-a z-10 space-y-1 p-2 bg-white/65 dark:bg-black/65 rounded-md">
+	<div class="relative pointer-events-none hover-a z-10 space-y-1 p-2 rounded-md bg-white/65 dark:bg-black/65">
 		<h2 class="text-3xl font-semibold">{title}</h2>
 		
 		<p class="text-md">
