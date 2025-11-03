@@ -17,4 +17,13 @@
 	<video src="/witch-treehouse/turnaround.mp4" autoplay muted loop playsinline controls width="800" class="rounded-xl shadow-lg">
 		<track kind="captions" />
 	</video>
+	
+	<div class="space-y-0">
+		<p class="text-lg">
+			Asset Credits
+		</p>
+		<ul class="list-disc pl-8 space-y-1">
+			<li><a class="font-bold" href="https://skfb.ly/6TGuF">Witch Treehouse</a> by Alexander Maximov, licensed under CC BY 4.0</li>
+		</ul>
+	</div>
 </div>
