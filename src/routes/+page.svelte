@@ -23,7 +23,7 @@
 		<ProjectCard title="Crimson Dust" description="Volunteer game project with a multidisciplinary team of designers and artists." backgroundImage="/crimson-dust/thumbnail.jpg" logos={["/logos/unreal.svg", "/logos/cpp.svg"]} link="/crimson-dust"></ProjectCard>
 		<ProjectCard title="Game Feel Demo" description="Super Mario 3D World-inspired platformer." backgroundImage="/game-feel-demo/thumbnail.jpg" logos={["/logos/godot.svg"]} link="/game-feel-demo"></ProjectCard>
 		<ProjectCard title="LIDAR" description="The player fires rays which create dots when hitting the invisible environment." backgroundImage="/lidar/thumbnail.png" logos={["/logos/godot.svg"]} link="/lidar"></ProjectCard>
-		<ProjectCard title="Doctor Who" description="Doctor Who demos featuring a &apos;Weeping Angel&apos; and a bigger-on-the-inside TARDIS" backgroundImage="/doctor-who/thumbnail.jpg" logos={["/logos/godot.svg", "logos/csharp.svg"]} link="/doctor-who"></ProjectCard>
+		<ProjectCard title="Doctor Who" description="Doctor Who demos featuring a &apos;Weeping Angel&apos; and a bigger-on-the-inside TARDIS." backgroundImage="/doctor-who/thumbnail.jpg" logos={["/logos/godot.svg", "logos/csharp.svg"]} link="/doctor-who"></ProjectCard>
 	</div>
 	
 	<h1 class="text-3xl font-bold">
