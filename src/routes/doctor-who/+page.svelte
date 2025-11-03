@@ -33,7 +33,7 @@
 	</div>
 	
 	<div class="space-y-2">
-		<img src="/doctor-who/portal-issue.png" width="600" alt="Portal issue" />
+		<img src="/doctor-who/portal-issue.jpg" width="600" alt="Portal issue" />
 		
 		<p class="text-lg">
 			Godot does not support oblique near clipping planes, which are required for portals to render only what is in front of them. This means the back of the police box obstructs the view of the portal seen from inside the TARDIS.

@@ -19,11 +19,11 @@
 	</h1>
 	
 	<div class="flex flex-wrap justify-center gap-6">
-		<ProjectCard title="Dance Brawler" description="A rhythm game disguised as a fighting game." backgroundImage="/dance-brawler/thumbnail.png" link="/dance-brawler"></ProjectCard>
-		<ProjectCard title="Crimson Dust" description="Volunteer game project with a multidisciplinary team of designers and artists." backgroundImage="/crimson-dust/thumbnail.png" link="/crimson-dust"></ProjectCard>
-		<ProjectCard title="Game Feel Demo" description="Super Mario 3D World-inspired platformer." backgroundImage="/game-feel-demo/thumbnail.png" link="/game-feel-demo"></ProjectCard>
+		<ProjectCard title="Dance Brawler" description="A rhythm game disguised as a fighting game." backgroundImage="/dance-brawler/thumbnail.jpg" link="/dance-brawler"></ProjectCard>
+		<ProjectCard title="Crimson Dust" description="Volunteer game project with a multidisciplinary team of designers and artists." backgroundImage="/crimson-dust/thumbnail.jpg" link="/crimson-dust"></ProjectCard>
+		<ProjectCard title="Game Feel Demo" description="Super Mario 3D World-inspired platformer." backgroundImage="/game-feel-demo/thumbnail.jpg" link="/game-feel-demo"></ProjectCard>
 		<ProjectCard title="LIDAR" description="The player fires rays which create dots when hitting the invisible environment." backgroundImage="/lidar/thumbnail.png" link="/lidar"></ProjectCard>
-		<ProjectCard title="Doctor Who" description="Doctor Who demos featuring a &apos;Weeping Angel&apos; and a bigger-on-the-inside TARDIS" backgroundImage="/doctor-who/thumbnail.png" link="/doctor-who"></ProjectCard>
+		<ProjectCard title="Doctor Who" description="Doctor Who demos featuring a &apos;Weeping Angel&apos; and a bigger-on-the-inside TARDIS" backgroundImage="/doctor-who/thumbnail.jpg" link="/doctor-who"></ProjectCard>
 	</div>
 	
 	<h1 class="text-3xl font-bold">
@@ -31,8 +31,8 @@
 	</h1>
 	
 	<div class="flex flex-wrap justify-center gap-6">
-		<ProjectCard title="Nightbird Engine" description="A custom game engine with Vulkan rendering." backgroundImage="/nightbird/thumbnail.png" link="/nightbird"></ProjectCard>
-		<ProjectCard title="Witch Treehouse" description="A shader diorama written in C++ with OpenGL." backgroundImage="/witch-treehouse/thumbnail.png" link="/witch-treehouse"></ProjectCard>
+		<ProjectCard title="Nightbird Engine" description="A custom game engine with Vulkan rendering." backgroundImage="/nightbird/thumbnail.jpg" link="/nightbird"></ProjectCard>
+		<ProjectCard title="Witch Treehouse" description="A shader diorama written in C++ with OpenGL." backgroundImage="/witch-treehouse/thumbnail.jpg" link="/witch-treehouse"></ProjectCard>
 	</div>
 	
 	<h1 class="text-3xl font-bold">
@@ -40,6 +40,6 @@
 	</h1>
 	
 	<div class="flex flex-wrap justify-center gap-6">
-		<ProjectCard title="Web Development" description="Having some past experience with NextJS, I decided to build my portfolio and the Nightbird website using SvelteKit." backgroundImage="/web-development/thumbnail.png" blur={true} link="/web-development"></ProjectCard>
+		<ProjectCard title="Web Development" description="Having some past experience with NextJS, I decided to build my portfolio and the Nightbird website using SvelteKit." backgroundImage="/web-development/thumbnail.jpg" blur={true} link="/web-development"></ProjectCard>
 	</div>
 </div>
