@@ -21,7 +21,7 @@
 	{#if logos.length > 0}
 	<div class="absolute top-2 left-2 flex gap-2 z-20 p-1 rounded-md bg-white/65 dark:bg-black/65">
 		{#each logos as logo}
-		<img src={logo} alt="Logo" class="h-7" />
+		<img src={logo} alt="Logo" class="h-7 dark:invert" />
 		{/each}
 	</div>
 	{/if}
