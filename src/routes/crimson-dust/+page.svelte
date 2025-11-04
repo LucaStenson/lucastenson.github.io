@@ -6,10 +6,14 @@
 	</h1>
 	
 	<p class="text-lg">
-		Crimson Dust is a fast-paced hack-and-slash game set in a wild-west reimagination of purgatory, where players take on the role of Cassian, a half-angel outcast fighting his way through a world caught between heaven and hell. 
+		Crimson Dust is a fast-paced hack-and-slash game set in a wild-west reimagining of purgatory. Players take on the role of Cassian, a half-angel outcast fighting his way through a world caught between heaven and hell. 
+	</p>
+	
+	<p class="text-lg">
+		Evil Bean Games is a multidisciplinary volunteer indie team, based in the UK with additional global team members.
 	</p>
 
 	<p class="text-lg">
-		As part of Bean Sprouts Games, a multidisciplinary volunteer indie team, I am the primary programmer for the project.
+		As the gameplay programmer, I am building a C++ character tailored to the game designers&apos; intentions.
 	</p>
 </div>
