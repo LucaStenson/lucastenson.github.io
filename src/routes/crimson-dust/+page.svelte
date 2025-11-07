@@ -10,10 +10,10 @@
 	</p>
 	
 	<p class="text-lg">
-		Evil Bean Games is a multidisciplinary volunteer indie team, based in the UK with additional global team members.
+		Evil Bean Games is a multidisciplinary volunteer indie team, based in the UK with global team members.
 	</p>
-
+	
 	<p class="text-lg">
-		As the gameplay programmer, I am building a C++ character tailored to the game designers&apos; intentions.
+		As the primary programmer on the team, I am building a C++ character tailored to the feel envisioned by the game designers.
 	</p>
 </div>

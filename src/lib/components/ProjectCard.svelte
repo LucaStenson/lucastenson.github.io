@@ -8,11 +8,11 @@
 </script>
 
 <a
-	class="group relative overflow-hidden flex flex-col justify-end p-6 w-80 min-h-80 border-2 border-black dark:border-stone-400 text-black dark:text-white rounded-lg"
+	class="group relative overflow-hidden flex flex-col justify-end p-2 w-full md:w-80 min-h-98 border-2 border-black dark:border-stone-400 text-black dark:text-white rounded-lg hover:shadow-lg"
 	href={link}
 >
 	<div
-		class="absolute inset-0 bg-cover bg-center duration-200 group-hover:scale-107 filter {blur ? 'blur-sm' : ''}"
+		class="absolute inset-0 bg-cover bg-center duration-200 group-hover:scale-110 filter {blur ? 'blur-sm' : ''}"
 		style="background-image: {backgroundImage ? `url(${backgroundImage})` : 'none'}"
 	></div>
 	
