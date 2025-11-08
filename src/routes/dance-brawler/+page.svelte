@@ -24,11 +24,17 @@
 		></iframe>
 	</div>
 	
-	<p class="text-lg">
-		As the gameplay programmer I built the note system, featuring various types of notes, and ensuring that the timing of player input and the visual representation of notes matched.
-	</p>
+	<div class="space-y-1">
+		<p class="text-lg">
+			My final year group project, I worked in a team of 7 to develop the game in four months.
+		</p>
+		
+		<p class="text-lg">
+			As the gameplay programmer I built the note system, featuring various types of notes, and ensuring that the timing of player input and the visual representation of notes matched.
+		</p>
+	</div>
 	
-	<div class="space-y-0">
+	<div class="space-y-1">
 		<p class="text-lg">
 			Note Types
 		</p>

@@ -5,7 +5,7 @@
 		Nightbird Engine
 	</h1>
 	
-	<div class="space-y-3">
+	<div class="space-y-0">
 		<p class="text-lg">
 			Nightbird is my custom C++ Vulkan game engine.
 		</p>
@@ -14,12 +14,34 @@
 		</p>
 	</div>
 	
-	<a
-		class="flex flex-col px-4 py-2 w-fit border-2 border-black dark:border-stone-400 text-black dark:text-white rounded-lg transition-transform duration-200 transform hover:scale-103"
-		href={"https://nightbirdengine.github.io"}
-	>
-		<h2 class="text-2xl font-semibold">
-			Check it out
-		</h2>
-	</a>
+	<div class="space-y-0">
+		<p class="text-lg">
+			The engine features runtime type reflection and a dynamic project system using RTTR.
+		</p>
+		<p class="text-lg">
+			This means the user can compile their project code into a DLL which is loaded by the editor or game. Custom scene object classes are added to the list in the editor and can be added to the scene.
+		</p>
+		<p class="text-lg">
+			Scenes created in the editor can be saved and loaded in the game.
+		</p>
+	</div>
+	
+	<div class="space-y-4">
+		<a
+			class="flex px-4 py-2 items-center w-fit border-2 border-black dark:border-stone-400 text-black dark:text-white rounded-lg hover:shadow-lg duration-100 hover:scale-103"
+			href={"https://nightbirdengine.github.io"}
+		>
+			<p class="text-2xl font-semibold">
+				Check out the website
+			</p>
+		</a>
+		
+		<a
+			class="flex px-4 py-2 w-fit space-x-4 items-center border-2 border-black dark:border-stone-400 text-black dark:text-white rounded-lg hover:shadow-lg duration-100 hover:scale-103"
+			href="https://github.com/NightbirdEngine/Nightbird"
+		>
+			<img src="/logos/github-icon.svg" alt="GitHub Icon" class="h-12"/>
+			<img src="/logos/github-text.svg" alt="GitHub Icon" class="h-8"/>
+		</a>
+	</div>
 </div>

@@ -17,7 +17,7 @@
 	}
 </style>
 
-<div class="fixed inset-0 -z-10 overflow-hidden pointer-events-none bg-white dark:bg-stone-950">
+<div class="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
 	<div
 		class="absolute w-[60vw] h-[60vw] bg-linear-to-r from-purple-900 via-pink-600 to-purple-700 rounded-full blur-3xl animate-pulse-strong"
 		style="top: 10%; left: 20%;">
@@ -33,7 +33,7 @@
 		</h1>
 	</header>
 	
-	<main class="p-4 sm:p-8 md:px-14 md:py-14 max-w-7xl mx-auto">
+	<main class="p-4 sm:p-8 md:px-14 md:py-14 max-w-360 mx-auto">
 		{@render children()}
 	</main>
 	
