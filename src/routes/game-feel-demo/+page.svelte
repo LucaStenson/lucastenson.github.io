@@ -7,7 +7,7 @@
 	
 	<div class="space-y-3">
 		<p class="text-lg">
-			A 3D platformer inspired by Super Mario 3D World, developed in Godot as a showcase of game feel for a university taster session.
+			A Super Mario-inspired 3D platformer, developed in Godot as a showcase of game feel for a university taster session.
 		</p>
 		
 		<video src="/game-feel-demo/demo.mp4" autoplay muted loop playsinline controls width="600" class="rounded-xl shadow-lg">
