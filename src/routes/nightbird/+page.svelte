@@ -28,7 +28,7 @@
 	
 	<div class="space-y-4">
 		<a
-			class="flex px-4 py-2 items-center w-fit border-2 border-black dark:border-stone-400 text-black dark:text-white rounded-lg hover:shadow-lg duration-100 hover:scale-103"
+			class="flex px-4 py-2 items-center w-fit border-2 border-black dark:border-stone-400 text-black dark:text-white rounded-lg hover:shadow-lg duration-100 hover:scale-105"
 			href={"https://nightbirdengine.github.io"}
 		>
 			<p class="text-2xl font-semibold">
@@ -37,11 +37,16 @@
 		</a>
 		
 		<a
-			class="flex px-4 py-2 w-fit space-x-4 items-center border-2 border-black dark:border-stone-400 text-black dark:text-white rounded-lg hover:shadow-lg duration-100 hover:scale-103"
+			class="flex px-2 space-x-2 items-center w-fit border-2 border-black dark:border-stone-400 text-black dark:text-white rounded-lg hover:shadow-lg duration-100 hover:scale-105"
 			href="https://github.com/NightbirdEngine/Nightbird"
 		>
-			<img src="/logos/github-icon.svg" alt="GitHub Icon" class="h-12"/>
-			<img src="/logos/github-text.svg" alt="GitHub Icon" class="h-8"/>
+			<img src="/logos/github-icon.svg" alt="GitHub Icon" class="h-10 dark:invert"/>
+			<div class="pb-1.5">
+				<p class="text-lg font-bold">
+					Available on
+				</p>
+				<img src="/logos/github-text.svg" alt="GitHub Icon" class="h-6 dark:invert"/>
+			</div>
 		</a>
 	</div>
 </div>
