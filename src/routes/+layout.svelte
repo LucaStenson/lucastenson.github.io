@@ -33,7 +33,7 @@
 		</h1>
 	</header>
 	
-	<main class="p-4 sm:p-8 md:px-14 md:py-14 max-w-360 mx-auto">
+	<main class="flex-1 p-4 sm:p-8 md:px-14 md:py-14 max-w-360 mx-auto">
 		{@render children()}
 	</main>
 	
